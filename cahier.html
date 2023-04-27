@@ -1,0 +1,1580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>Cahier</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table td{border-collapse:collapse;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* Template Styles */
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#FFF;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:22px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:0;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px !important;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+	/*@editable*/ color:#333000;
+	/*@editable*/ font-family:Arial;
+	/*@editable*/ font-size:14px;
+	/*@editable*/ line-height:150%;
+	/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.footerContent img{
+				display:inline;
+			}
+
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			* @theme footer
+			*/
+			#social{
+				/*@editable*/ background-color:#FAFAFA;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			*/
+			#social div{
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			* @theme footer
+			*/
+			#utility{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			*/
+			#utility div{
+				/*@editable*/ text-align:center;
+			}
+
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ --><!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td valign="top" class="bodyContent">
+                                
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00">
+                                                          
+                                                        
+                                                 
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                    
+                                                       <p style="color:#333;  padding-bottom:20px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> <span style="color:#CCC;">  - - - -  Forwarded message - - - -<br />
+From: Alterations <br />
+Date: Sat, Apr 21, 2012 at 7:30 PM<br />
+Subject: PUBLICATION<br />
+                                                       </span><br /><br />
+
+</p>
+
+  <p style="color:#333;  padding-bottom:20px; font-size:x-small;  font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> <span style="border-bottom:1px solid black; padding-bottom:1px;">Cahier</span><br />
+    <br /><br />
+
+          
+        <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Editorial
+            <br />
+            <br />
+          </div>
+          
+          
+          
+           <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Bass Practice and A Reader
+             <br />
+<br />
+           </div></div>
+          
+          
+         <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Retouch some real with some real:<br />
+The encounter, which leads to the invitation<br />
+Bopha Chhay<br />
+<br />
+</div></div></div>
+          
+          
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  The Undisclosed Space
+                  <br />
+                  Tim Wong<br />
+<br />
+</div></div></div></div>
+          
+        <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Notes on a critical spatial practice;<br />
+or 'walking in the city' reconsidered<br />
+Andrea Bell<br />
+<br />
+</div></div></div></div></div>
+          
+         <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Everything Must Go<br />
+ Arron Santry<br />
+<br />
+</div></div></div></div></div></div>
+          
+          
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Persons in Tense <br />
+ Kel Glaister<br />
+<br />
+</div></div></div></div></div></div></div>
+          
+          
+           
+       
+          
+          
+           <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Thinking about the insides and outsides of a pot<br />
+            Lauren Winstone and Nick Spratt<br />
+<br />
+</div></div></div></div></div></div></div></div>
+          
+          
+          
+           
+         
+            
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">  Excerpt from artist's notes: <em>The Island and the Aeroplane</em><br />
+ Michael Stevenson<br />
+<br />
+</div></div></div></div></div></div></div></div></div>
+
+
+          
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; "> 
+          <div style="border-left: 1px solid #EBEBEB; padding-left:10px; color:#333;   font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:0px; ">Round trip<br />
+  Jon Bywater
+ </div></div></div></div></div></div></div></div></div></div></div>
+<br /><br /><br /><br /><br />
+          
+          
+          <div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">On Sat, Apr 21, 2012 at 7:29 PM, Alterations wrote:</span><br /><br />
+
+Editorial
+                            </p>
+                                                         
+                                                         
+                                                          
+                            <p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+
+To follow is a collection of writings that remembers the Alterations curatorial season November 2010 – December 2011. Fellow artists, curators and writers were invited to produce a critical response to a project for the programme. The texts submitted are anecdotal, fragmentary notes of projects, re-readings and essays. These texts were written sequentially over the course of the year and reflect the diversity of the collective's interests. <br />
+
+          This publication is embedded within an email thread—designed with the intention to be forwarded on to those who will find it of interest. You are welcome to include your personal recommendations and opening notes as part of the publication. We endorse free access of this material while respecting the copyright of the individual authors.
+<br />
+          Alterations was an independent initiative committed to developing local discourse on curatorial practice. Throughout the series there was no expectation to produce finished work. More often the project set a research investigation in motion, for instance, an unfinished film project which is not documented here. The Alterations programme now stands with a resume of revolving sites that are physical, virtual and discursive.
+
+    <br />
+          It has been an extremely rewarding experience to have worked with such inspiring practitioners, and we hope that the discussions that were generated from these projects live on with you, the reader.                            <br />
+<br />
+<br />
+Laura, Amit and Joel
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            </p>
+                                                        
+                                                         
+          
+          
+                                                          
+
+                                                         <div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">On Sat, Apr 21,  2012 at 7:28 PM, Alterations wrote:</span><br />
+<br />
+
+Bass Practice and A Reader<br />
+Presentation notes for Massey University forum<br />
+<em>Where Art Belongs/Exhibition as Medium</em><br />
+October 2011
+                                                         </p>
+                                                         
+                                                         <p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+I am Alterations a curatorial agency supported by three people: <br />
+Laura, Amit and Joel. My name was taken from the vinyl signage of a <br />
+past clothing alterations shop which I set up as my studio. Joel remixed the signage with patterns taken from the shop and created a series of computer generated logos. The logo is an abstraction of my ideas. <br />
+My actions speak for the brand.<br />
+        I was born in November 2010 at Plimmer Steps in Wellington. <br />
+I was conceived as a hybrid between an exhibition space, library and studio. In my early days I initiated several projects in my studio that<br />
+tested the use of the space. <br />
+        I employ notions of time and duration as a key mode of exhibition production. I have lived for ten months and will die in December. My oeuvre will be eleven projects in total. Some have already been published and others are yet to come. While some will outlive me.<br />
+        My distribution strategy is to present material that works in parallel to the projects I show, rather than an interpretation or representation. The core material that I produce is in the form of handcrafted announcements, which challenge conventional notions of exhibition advertising and design. I often speak the languages of other industries such as film and fashion. My blog is simple and for it I record each project with statement texts and accompanying images.<br />
+        In my life this is what I want to achieve.<br />
+&ndash; To work in parallel with other curators and practitioners coming from     different fields to build a local history on exhibition making<br />
+&ndash; To contest conventional viewing conditions placed on post-studio<br />
+    work and endorse research developed in free time <br />
+&ndash; To alter the tempo of exhibition production
+<br />
+&ndash; To make exhibitions that work as poetry
+<br />
+&ndash; To deconstruct the models used to create exhibitions/projects. <br />
+                                                         </p>
+
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+I employ notions of time and duration as a key mode of exhibition production. I have lived for 10 months and will die in December.</p> 
+
+          <p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+
+
+I want to share two projects. The first is<em> Bass Practice</em>, a solo artist <br />
+project by Ben Curnow, which inaugurated the series. I wished<br />
+to begin with a historical project and to work with an artist who was committed to showing in artist-run spaces. I invited Ben Curnow to tap the ethos of artist Julian Dashper for these reasons. Julian had recently passed away and I wanted to pay tribute to him by involving Ben who <br />
+had been a previous subject of a portrait by Dashper.<br />
+            Some background information on Ben Curnow: he comes from a family of artists and writers who have made significant contributions to <br />
+New Zealand art discourse.  Back in 2004, Ben was invited by Julian to function as a live portrait of a curator and writer in residence at the artist-run space Canary Gallery, Auckland. For <em>Bass Practice</em> Ben responded to this early portrait. Instead of simply restaging the work, Ben became an active subject of the work. Ben advanced the exhibition by Julian to turn the biographical portrait into an autobiographical one. I was interested in how the project could be structured as a story within a story.<br />
+        The exhibition experimented with sound as a medium. Ben was involved in the independent punk music scene in New Zealand and the city of Wellington recalled for him a previous life when he toured the country playing in punk bands. Julian once said that Ben was a very good bass player. Julian had also shared with Ben that if he had been selected <br />
+to represent New Zealand at Venice, Julian would learn to play the trumpet at the biennale. With this is mind, Ben’s self portrait involved him playing a <br />
+bass practice session in my studio.<br />
+        I was mindful of the mythology surrounding Julian’s life and work. <em>Bass Practice</em> acknowledged their friendship and through this spoke of an art history personally constructed. I gave a speech at the project’s opening that pointed to these specific histories and anecdotes. I hope the story about the work  travels primarily through word of mouth. For this reason I did not display any explanatory texts for the viewing audience at the event.<br />
+        The event itself was casual and anti-spectacle. Although the conceptual parameter of the project was scripted, the activity that happened on the night was free form. At times the convivial activity at the event played with Ben’s performance but also created interference in parts. The deep sound of the bass playing metaphorically set a basis for <br />
+all that was to come.<br />
+         Kelvin Soh's project entitled <em>Everything Must Go</em> signalled my departure from the studio and in turn I adopted a nomadic lifestyle. <br />
+<br />
+
+<br />
+<br />
+My next project <em>A Reader</em> was an exhibition in book form.<br />
+It was presented at the Auckland and Wellington central public libraries. It was my first group exhibition. The project privileged visual reading.<br />
+It gave agency to the reader to essentially become the author of the project. The exhibition was kept behind the issues desk at both public libraries and directed the reader to request a copy of the project for viewing.<em> A Reader</em> is a compilation of texts by numerous authors who have a reflexive interest in the production of the reproduction. You could say that it was an anthology of copies. Each contribution was covered with frosted paper. As a result this blurred the titles of the source material and unified all the contributions into one object. The size and shape of the books determined the sequence of works in the exhibition and further gave an impression of the exhibition as one large book. This also allowed the viewer to navigate through the exhibition freely.<br />
+        The show featured various works in text, photography, audio and DVD format made by the following artists: Sophie Calle, Marjolijn Dijkman, Liam Gillick, Idris Khan, Abbas Kiarostami, Alec Soth, Susan Sontag, Wolfgang Tillmans, Roman Ondak, Bik van der Pol and Tris Vonna-Michell. None of these artists were informed that their works were included in this project. The presentation of their work as reproduction allowed this. <br />
+The disparate works were brought together to form an inter-textual reading on the idea of the copy. Some examples were: a fashion bracelet cited in Alec Soth’s faux fashion magazine paired with Abbas Kiarostami's film <em>Close-up</em> that told the tale of a doppelganger. Idris Khan’s referential photograph was followed by Susan Sontag’s book which was used as a source for Khan's work. Marjolijn’s postcards were inserted in two books, creating points of departure or diversion within the texts. These bookmarks also signaled the beginning and end of the exhibition.<br />
+        <em>A Reader</em> was designed for an intimate viewing experience. The reader could spend hours reviewing the material or quickly flick through the show like a magazine, or return for multiple reading sessions if they wished. The exhibition encouraged a self-mediated and personal encounter with the material and in valuing the reproduction, the original was re-inscribed and authenticated. I produced only one copy of this exhibition of reproductions for circulation.<br />
+<br />
+<br />
+<br />
+
+
+<span style="border-bottom:1px solid black; padding-bottom:1px;">Closing remarks:</span><br /><br />
+
+I am committed to realising considerate projects within
+modest means that further New Zealand art and curatorial discourses. Through the project series I am seeking to advance our grammar for exhibition making in New Zealand. I primarily initiate projects for my peers; in some cases a general audience do not view the work at the first showing. The work then exists in the form of documentation or hearsay, which is recognised at a later stage and placed out of its original context. This raises problems in regard to the appropriate contextualising and preservation of such temporal works. What links the two projects that I have outlined is that the experience of the work is more often deferred, either as a self mediated experience, a reproduction, or as an idea that travels independent of the event. The question I face is how to curate time based, propositional works and small gestures of a conceptual nature when the projects are developed in a different context to the space of exhibition, encounter and rest. It seems the way to do this is by changing the exhibition format so new art forms and timeframes for the art work can develop.
+
+I hope the agency will have another life after me.</p><br /><br /><br />
+
+
+  
+                                                  <div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">  On Sat, Apr 21,  2012 at 7:27 PM, Alterations wrote:</span><br />
+<br />
+                                                         
+                                                         
+                                                          Richard Frater for Alterations<br />
+retouch some real with some real<br />
+2.12.10 - 5.12.10<br /><br />
+ 
+
+Retouch some real with some real:<br />
+The encounter, which leads to the invitation <br />
+ Bopha Chhay <br />
+<br />
+<br /><br />
+                                                    </p>
+
+
+
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+
+As a seemingly simple architectural gesture, Richard Frater’s<em> <br />
+retouch some real with some real</em> opened up the gallery space with <br />
+the temporary removal of the two front windows. Removed by glaziers and taken off site for the duration of the project, the absence of the <br />
+windows became a literal entry point for the viewer and a frame of reference to the project. Entrance into the project space in the conventional manner was no longer an option; the door of the space remained firmly shut. Consciously negotiating that the work be read in a certain way, Frater staged a temporal heterotopic space<span style="color:#333;"><sup>1</sup></span>, setting up an encounter, which also became an invitation for viewers to consider <br />
+and explore the gallery.<br />
+        Situated within the vicinity of the CBD, the previous incarnations <br />
+of the space as commercial ventures, an alterations tailoring store, <br />
+and prior to that a florist; Alterations offers an alternative, positioned outside of the day-to-day commercial model. The seductive allure of shop front window commodities to invite curiosity, desire and physical reflection is omitted here. Unable to identify and relate to product scenarios within the window display, we, as viewers are denied the leisurely consumerist activity of window-shopping. Instead viewers were offered a spatial void to consider. It is this moment, where viewers are forced to recognise the way the absent windows unhinge and subvert the socio-economic dynamic of the alluring shop, that allows for an alternative 'currency' of articulations to emerge.<br />
+        The project’s reliance on the passerby echoes Situationist <br />
+Guy Debord's discussion of ‘chance situations’, as strategies of intervention, based on the individual’s engagement with their urban surroundings. Outlining his methodological approach Debord claims ‘psychogeography’s progress depends on a great extent on the statistical extension of its methods of observation, but principally on experimentation through concrete interventions in urbanism.’<span style="color:#333;"><sup>2</sup></span> <br />
+Frater's own architectural intervention into the urban environment, affectively blurs the demarcations of public and private space altering the perspective not only of the space itself, but also it's immediate surrounds. Similarly, and more recently, political theorist Jacques Ranciere has also considered the significance of 'chance situations'. <br />
+He states; 'I've called it the <em>encounter</em>. You could also call it the<em> invitation</em>. The artist-collector institutes a space of reception to engage the passerby in an unexpected relationship.’<span style="color:#333;"><sup>3</sup></span> Operating along the similar lines of a Situationist strategy of an intervention, the idea of the encounter, which in turn becomes an invitation is central to Frater’s project. Frater's gesture created a space that facilitated these 'chance situations' that Debord speaks of and in turn, it generated the potential for 'unexpected relationships' to arise. The work in this sense was very generous. It gave back to the space. Handing over to the project space, the ways the space could potentially be experienced, and allowing relationships to be formed in a number of different ways. The relationship between the people that congregated and were present within the space and the working relationship between Alterations and the artist meant the space and the work was continually being challenged <br />
+and redefined throughout its duration.</p>
+
+
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+  Frater’s invitation <br />
+stages a ‘situation’ that draws viewers to engage with the sensitivities of the architectural space.</p>
+
+<p style="color:#333; background-color:#FFFFFF; font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+
+The  continual redefinition of the work draws conceptual similarities with the practices of American artists Dan Graham and Gordon Matta-Clark, <br />
+in their investigations of the relationship between audience and architectural surrounding, and in their continual attempts to find new ways to re-engage the urban experience. Dan Graham’s projects have continually prompted investigations of the way spatial alterations can affect social behaviour. His works <em>Opposing Mirrors and Video Monitors on Time Delay</em> (1974) and <em>Alteration to a Suburban House</em> (1968) both engage the utility of facade and reflection to explore relationships between the work and the audience; creating situations, which at first appear banal, nothing out of the ordinary yet allow for momentary digressions that alter the experience of the space. Similarly Matta-Clark’s work relied on audience based experience. His site-specific works <em>Building Cuts</em> took place in abandoned buildings in the 1970s, engaging the experience of the urban situation by altering architectural features of the site to see how these alterations affected both the space and the surrounding environment. Frater’s invitation in a similar way stages a ‘situation’ that draws viewers to engage with the sensitivities of the architectural space. While the space remained distinctively empty, <em>retouch some real with some real</em>, functioned as a space which simultaneously questioned the role of art institutions, and the possibility of art to be experienced within an everyday social context.<br />
+        Here, the stakes of the work become more complex, <br />
+the acknowledgment of the absent windows as a disruption within the daily urban narrative set precedence for the act of crossing the threshold into the space. More frequently associated with the door, the newly formed threshold of the window took on further significance beyond its standard architectural function and encouraged a somewhat  rebellious act of climbing in through the window, as opposed to walking in through the door. The informality of coming in through the window activates a process of unlearning, as if to say “please leave your inhibitions at the door, and proceed through the window”. At the point of accepting the invitation to cross the threshold and enter into the project space, the viewer becomes implicated within the space. The space remains open, and the unconventional entry through the windows shapes the continual redefinition of the parameters of the way the space is experienced. <br />
+The work encourages a resistance against prescribed behaviours; <br />
+re-directing our expectations of how and what we should experience within art institutions and spaces.<br />
+        Brought on by the tension between the nature of open and closed spaces within the public environment, the staged anticipation led to a multitude of speculative trajectories. There was no way to gauge what would happen and how people might respond. With this heightened precarity, the space became vulnerable, becoming susceptible to potential acts of vandalism. In retrospect, Frater described some of the practicalities of the work, mentioning that the process of removing the glass and its subsequent absence opened up the space to an unknown and indeterminable vulnerability.<span style="color:#333;"><sup>4</sup></span> This vulnerability and amplified anticipation for the potential for the unknown to happen and for the duration and subsequent close of the project became essential to the work. The work's temporality, bracketed by the removal and <br />
+re-instatement of the windows, presented a loss of spatial certainty <br />
+and infiltration of an uncertainty. The script in which the audience becomes implicated suddenly and subtly seems weighted towards a measure of defiance, with the pervasive anticipation revealing some of the problematic elements of a practice of this nature.</p>
+
+
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+ With this heightened precarity, the space became vulnerable, becoming susceptible to potential acts of vandalism.</p>
+
+
+
+<p style="color:#333; background-color:#FFFFFF; font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; padding:35px;">
+Whilst the subtly of the encounter steers the reading of the project <br />
+in a particular way, this was simultaneously problematic, in that it relied heavily on viewers to engage the space, to bring a sense of social reality to the work. How were viewers to comprehend a project whereby we encounter the space of the work where the door is locked and the windows are absent? An initial encounter such as this carries <br />
+the potential for such a project to be misread, simply unacknowledged and to slip under the radar. It may not register with the passerby as an intentional project as they are left to ponder the seemingly vacant space without being able to comprehend the conceptual impetus of the scenario. Without the provision of contextual grounding, some viewers who come across the site may be left feeling perplexed. While the acknowledgement of the spatial reconfiguration is the first step to acknowledging the work, it runs the risk of potentially becoming a work where only those involved within the process are able to garner an ‘informed’ understanding of the projects conceptual objective. <br />
+The ambiguity in where the work lies, not only demonstrates the problematic nature of such a practice, but also becomes an indexical commentary on the way our experiences of art spaces can frequently be codified in such a way that can dictate and simultaneously hinder our experience. This also prompts the necessity to consider the <br />
+subsequent inabilities of the vernacular we commonly draw on to articulate our experiences.<br />
+        While the word ‘retouch’ is a word we often attributed to interior decorating, advertising and design, retouch also suggests a series of low-fi alterations procedures.<span style="color:#333;"><sup>5</sup></span> Providing a kind of parenthetical closure to the anticipation for uncertainty generated by their absence, the reinstated windows facilitated a playful subversion, with the words ‘Alterations’ inversed. Reframing the space with the inversion of the windows, by altering the façade and operating concurrently to redefine what the space is now facing; Plimmer Steps, the carpark, the CBD and beyond, the world? In retrospect of the project Frater mentioned ‘it shifts attention outside the gallery to where the public congregates and moves.'<span style="color:#333;"><sup> 6</sup></span> This gesture becomes the ultimate reversal, shifting our focus to engage with the outside, appropriating the world on our own terms, as opposed to being determined by it. The reinstated windows requires us to apprehend the space through language. With the structural coherence of the word being slightly thwarted, the temporary escape from linguistic structures by denying that the word 'Alterations' be read in the conventional left to right. It's 180 degree change of axis acts almost as a gentle indexical prompt. It suggests the need to re-consider, to take a different approach to the way we apprehend the space and also the way we utilise language to articulate our experiences.<br />
+        What began as a very subtle architectural gesture, <em>retouch some real with some real</em> engaged a series of critical contemplations. The negation of spatial experience and the playful inversion of the word 'Alterations' draws back to Frater's initial gesture. In staging a ‘situation’, which remained open to chance and the unexpected, the precarity of leaving the space open to unknowns and a vast array of speculative scenarios generated a dialogue between Alterations and Frater in consideration of the practicalities and the problematics of a work of this nature. The work in this sense was very generous, in that it gave back to the space; handing over both to the project space and to the viewer the question of how the space might be experienced. The bracket of time in which the windows would remain absent and the space lay vulnerable had to be negotiated, both to maintain the integrity of the project’s intentions, but also in consideration of the practical responsibilities of the space and building at large (containing both residential and retail occupants). In this sense the conversations and negotiations between Alterations and Frater created a platform from which the possibilities arose, whilst also raising questions about the conventions of exhibition production. The work was continually being redefined and evolving within the parenthesis of the project; from the initial removal of the windows to the reinstatement. Frater’s project drew attention to the often-codified way in which we frequently apprehend contemporary art spaces, and how this can dictate our experiences and subsequent articulations in well-worn pre-determined routes. While the definitive intention remains with the opening gesture, the duration of the work at Alterations called for a reconsideration of our common held assumptions and expectations for experiences in art institutions and project spaces.</p>
+
+<p style="color:#333; background-color:#FFFFFF; color:#CCC;  font-size:xx-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:55px;  ">
+
+<sup>1</sup> Michel Foucault, 'Of Other Spaces' (1967) in <em>Heterotopias</em>. Translated from the French by Jay Miscowiec. The text was first published by the French journal <em>Architecture / Mouvement / Continuite</em> in <em>Octobter</em>, 1984. www[dot]foucault[dot]info/documents/heteroTopia/ foucault.heteroTopia.en.html.<br />
+<sup>2</sup> Guy Debord, 'Towards a Situationist International' (1957) in <em>Participation: Documents in Contemporary Art</em>, ed. Claire Bishop. London: Whitechapel, and Massachusetts, Cambridge: MIT Press, 2006. pp. 96-101.<br />
+<sup>3</sup> Jacques Rancière, 'Problems and Transformations in Critical Art' in <em>Participation: Documents in Contemporary Art</em>, ed. Claire Bishop. London: Whitechapel and Massachusetts, Cambridge, 2006. pp. 83-93.<br />
+
+<sup>4</sup> Discussion with Richard Frater, 4 November 2010.<br />
+<sup>5</sup> As a solid and structural addition, Frater provided some functional and structural alterations by reinforcing and strengthening the window frame with a metal bar.<br />
+<sup>6</sup> Richard Frater, <em>retouch some real with some real</em>: notes by Richard Frater, 2010. </p><br />
+<br />
+<br /><br />
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">On Sat, Apr 21,  2012 at 7:26 PM, Alterations wrote:</span><br />
+<br />
+                                                         
+                                                         
+  Deimantas Narkevičius for Alterations<br />
+ 
+Film screenings of <em>Scena</em> and <em>The Role of a Lifetime</em><br />
+25.1.11 - 31.1.11<br /><br />
+ 
+
+The Undisclosed Space<br />
+Tim Wong<br /></p>
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+
+Peter Watkins, the exiled British filmmaker whose residences have
+included Sweden, Canada, and France, can often be found in self-
+interview form, such is his skepticism of mainstream media practices. <br />
+A
+search online, for instance, unearths few, if not any published interviews
+post-2000, the year<em> La Commune (Paris, 1871)</em> was released—a
+reenactment of the Paris Commune that remains Watkins’s last act as a
+director thus far. Outspoken, yet rarely heard, his policy nowadays is to
+avoid giving interviews altogether, choosing rather to provide texts on his
+work so as to preclude the misrepresentation of his ideas. With this
+knowledge, Deimantas Narkevičius’s<em> The Role of a Lifetime</em> (2003)—a
+16-minute film comprising of a dialogue with the (unseen) director,
+landscape drawings, and 8mm home movie footage—takes on an
+unusually intimate dimension, at least to those aware of Watkins’s
+marginalization as an artist. As for the viewer who encounters
+Narkevičius’s film by chance, the ramblings of an old, aggrieved man are
+perhaps all that can be discerned. Presumably, the words <br />
+spoken will be
+accepted as those of the artist himself at first—<br />
+an incorrect, but not
+invalid assumption that may be the key to <br />
+unlocking Narkevičius’s film.<br />
+        Just as Watkins uses self-interview as a channel for discussion <br />
+of his
+cinema, or, as in the case of his masterpiece,<em> Edvard Munch</em> (1974),
+studies a likeminded artist as a means of self-portraiture, Narkevičius is
+ruminating on his own practice and role as an artist through Watkins’s
+voice. And just as Watkins shares an obvious affinity with the Norwegian
+painter of his film—both outsider artists repeatedly attacked by the
+critics—a distinct commonality exists between Narkevičius and Watkins,
+each who approach history not as a permanent state on a constant plane,
+but as a temporary field open to recreation and imagination. Back-projected onto a small pane of frosted glass from within the Alterations
+project space on Wellington’s Plimmer Steps, the installation of<em> The
+Role of a Lifetime</em>, by emerging from its own liminal space, also queries
+the boundaries in which art is made or displayed within, physical or
+otherwise. Neither inside nor out, closed off yet extended to the public,
+there is an element of <br />
+self-critique in this site-specific presentation that is
+entirely in the<br />
+spirit of Narkevičius’s work.<br />
+        When screened at a closed reading session to mark the exhibition’s
+opening, Narkevičius’s 2003 film<em> Scena</em> offered a contextual footing
+for a conversation to launch from on the politics of gallery space. This
+inquiry was as much the purpose of the project, <br />
+as it was the worthwhile
+
+exhibition of an artist’s work. In much the same manner, Narkevičius
+juxtaposes languid shots of the Contemporary Arts Center in Vilnius with
+a commentary by three individuals employed at the institution, and from
+this deceptively simple marriage of components, a discrepancy between
+memory, time, and place emerges. If this unrest within the documentary
+format is characteristic of Narkevičius’s video art, it also confirms
+the synergy between the artist and curators’ motives. Both parties are
+interested in reframing the unreliable neutrality of their respective
+working spaces, and for the Alterations project and its installation of <em>The
+Role of a Lifetime</em>, the task of mounting the film in a responsive way must
+consider not only the methods of the artist, but the methodology behind
+the traditional gallery framework—an institutional convention brought
+into sharp relief by the spare, functional modernism of the art centre
+surveyed in <em>Scena</em>.</p>
+
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+Is Narkevičius’s film an exchange with a fellow filmmaker, a tribute to an iconoclast, a lament for contemporary cinema, or a surreptitious form of appropriation?</p>
+
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+  Problems surrounding the “white cube” gallery conceit are nothing <br />
+  new
+to art criticism, however given that Narkevičius’s works reflect actively
+on the Communist aspirations of Lithuania’s past, the dominance of
+ideology in constructing an experience of space is especially pronounced
+in this partnership. Appropriately enough, <br />
+the point argued in Brian
+O’Doherty’s influential 1976 essay,<br />
+'Inside the White Cube'—that the
+supposedly neutral gallery space is in fact historically burdened—applies
+to Narkevičius’s practice, insofar as the dubiousness of objectivity
+is implicit in his films, and that by <br />
+introducing subjectivity into the
+framework of documentary, its perceived importance can be overturned.
+The Alterations project similarly strives to escape its own vacuum,
+whereby walls and ceilings are the literal borders of a modernist formula
+for the exhibition of art. What is successful about their response to
+dealing with the ideological weight of this established gallery model is
+the discursive space <br />
+that is fostered by locating the work on a precipice.
+There are complications, too, with inverting the projection of the film so
+that it is viewed from the exterior, and from a practical standpoint, the
+audio was barely audible at certain times of the day. Difficulties aside
+though, what the curators’ proposal demonstrates is an ongoing and,
+to date, fruitful engagement with the confines of gallery architecture,
+spurred on here by Narkevičius’s own tests around the perimeters of
+documentary narrative, and other previous inhabitants of the space:
+namely, artist Richard Frater, whose proposition was to remove the front
+windows, granting both the public and the elements access to the interior,
+before returning the windows reversed, thus turning <br />
+the space inside out.<br />
+        Accordingly, as the role of the art gallery becomes a talking point, so too
+does the role of the artist, which in turn brings the relationship between
+two artists into the open. It is evident in their liaison that, in spite of the
+one-way narration—answers are delivered, but never prefaced during the
+film’s duration—there are many questions posed. Is, for example,
+Narkevičius’s film an exchange with a fellow filmmaker, a tribute to an
+iconoclast, a lament for contemporary cinema, or a surreptitious form of
+appropriation? Narkevičius casts the British director as his alter ego, or
+possibly on more tokenistic terms, his double, and yet as the front man of
+the film, is Watkins, on some level, also standing trial? Watkins’s
+ideology, as briefly as it is touched upon, certainly isn’t exempt from
+scrutiny, and in a frankly revealing moment, he concedes of his own role
+in the highly manipulative editing process. There is a degree of sadness
+in Watkins’s testimony that discloses the “cost” he has paid for his
+uncompromising stance as an artist. But at the same time, we gain insight
+into some of the pitfalls of his personal manifesto on filmmaking, where
+the fraught middle ground between 'totally free video artist'
+and 'authoritarian television [director]' <br />
+he occupies is open to
+contradiction.<br />
+          For all their radical gestures, Watkins’s earlier films—namely,<em> <br />
+  The
+War Game</em> (1965) and <em>Punishment Park</em> (1971)—can appear jaundiced,
+overbearing, and constrained through their aggressive politicking, which
+seems at odds with the autonomy he is committed to granting the viewer.
+What is unclouded, however, is Watkins’s role in the evolution of film,
+both stylistically and thematically, and the redefinition of documentary,
+by virtue of its fraudulence. The likes of Orson Welles (with<em> F for Fake</em>),
+Chris Marker, Adam Curtis, and Michael Haneke are all indebted to
+him. To Narkevičius, having Watkins in close proximity presented an
+opportunity to personally investigate his influence, and the interview
+heard in <em>The Role of a Lifetime</em> was conducted during the Englishman’s
+time living in the artist’s native Lithuania. Part of their talk takes place
+in Grutas Park, which Watkins describes (with the aid of drawings of the
+site) as a theme park to the Soviet period, whose collection of socialist
+statues provide us with a chance to 'reflect on man’s unbelievable folly,
+inhumanity, and endless repetition of history.' Like the art centre in<em> Scena</em>, monuments to utopia are frequently returned to in Narkevičius’s
+exploration of his country’s past, and considered here, provide a link to
+his background in sculpture (subsequently extended into film), and more
+pervasively, the ensnarement of collective memory, which in its crudest
+form, <br />
+is represented in the statues of Lenin, Stalin, and Marx.<br />
+        'At the very heart of Deimantas Narkevičius’s work,' curator <br />
+Chus
+Martinez summarises, 'is the constant questioning of sources as a method
+attempting to generate distance and in this way situate ambivalence as
+a generating category of freedom.'<sup>1</sup> Sound and image in Narkevičius’s
+films combine and confound to encourage this freedom of interpretation,
+and in <em>The Role of a Lifetime</em>, at least, <br />
+the associations are rich and
+complex, more so than the bare outlines depicting a Vilnius nature
+reserve suggest. Compared to Watkins, whose anachronisms and casual
+breaking of the fourth wall brings history closer to a present tense,
+Narkevičius, through a different kind of intervention, 'confronts history
+itself.'<sup>2</sup> The invigorating breathing space in the film is thus less about
+the distance between reality and fiction, than it is between 'telling
+something, and not telling it all.'<sup>3</sup>  <br />
+As speculated, Watkins may not
+only be an object of admiration, <br />
+but one placed under the microscope,
+and there’s a sense that his technique—alongside Narkevičius’s
+quietly sophisticated array of abstractions, absences, and documentary
+fragments—may have, ironically, dated.<br />
+        It could be said that the film’s one fleeting glimpse of Watkins, sketched
+in pencil as if he were a bust in a museum (or a Communist sculpture
+in Grutas Park), subtly declares the British director as a monument
+of sorts too. Regardless of any sly criticism of Watkins’ method that
+surfaces though, both he and Narkevičius are fundamentally concerned
+with the same interspace where histories and stories can be revised,
+and where film is a site, an intermediary space, for those revisions to
+unfold. No more are the two men in sync than in the final minutes,
+where Watkins’s famously pessimistic theories on mass audio-visual
+media, suspended by Narkevičius’s found footage montage of erstwhile
+Brighton, almost make time stand still. Let us not, however, allow this
+mournful endnote to obscure the simple formal beauty of the film. The
+amateur cinematography of beaches, parks, and markets weigh in with
+their own graceful nostalgic pull, evoking, with the help of Watkins’
+weary voiceover, a Terrence Davies memoir.<sup>4</sup> The drawings, at once
+plain artists’ interpretations, and images for the camera to pan over in
+a robotic documentary motion, are rather enticing all the same, and in
+their stark winteriness, might as well be the real thing. And yet, beneath
+the film’s outwardly serene, fluent <em>mise en scène</em>, there is flash point
+of deconstruction and reassemblage, fabrication and interrogation. The
+invitation for us to participate in the discourse is there.</p>
+
+<p style="color:#333; background-color:#FFFFFF; color:#CCC;  font-size:xx-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:55px;  ">
+
+<sup>1</sup> Chus Martinez, 'It Could Have Been Me, And it Was', <em>The Unanimous Life by Deimantas Narkevičius</em>. Spain: Reina Sofia, 2009. pp11-14.<br />
+<sup>2</sup> Jean-Pierre Rehm, 'Suspended Vocation',<em> A Prior Magazine</em>, no. 14, May 2007. pp159-169.<br />
+<sup>3</sup> Chus Martinez, 'It Could Have Been Me, And it Was', <em>The Unanimous Life by Deimantas Narkevičius</em>. Spain: Reina Sofia, 2009. pp11-14.<br />
+
+
+<sup>4</sup> Terrence Davies is a British filmmaker whose feature films primarily comprise of autobiographical memories of his youth in Liverpool during the 1940s and 1950s. His most recent film, <em>Of Time and the City</em> (UK, 2008), continues the theme as a visual essay by combining found archival footage, new documentary content, and his own pensive, if embittered voiceover narration on the history of Liverpool, post-World War II.<br />
+
+</p><br /><br /><br /><br />
+
+
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;"> On Sat, Apr 21,  2012 at 7:25 PM, Alterations wrote:</span><br />
+<br />
+                                                         
+                                                         
+  Andrea Bell curates Thea Rechner for Alterations<br />
+ 
+Observations, propositions and re-presentations<br />
+4.2.11 - 25.2.11<br /><br />
+ 
+
+Notes on a critical spatial practice<sup>1</sup>;<br />
+or ‘walking in the city’ reconsidered<br />
+ Andrea Bell</p>
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+<span style="border-bottom:1px solid black; padding-bottom:1px;">Research</span><br /><br />
+The genesis of this project lay in Simon Sheik’s <em>Objects of Study <br />
+or Commodification of Knowledge?</em> <em>Remarks on Artistic Research</em>, which, upon reading brought Thea Rechner’s practice to mind:<br />
+       <br />
+ <em>Research has … to some extent, supersceded [sic] studio practice … if we view art production as knowledge production rather than formal production, we will have to develop and define a different set of properties and parameters for discussion, production and evaluation. And when
+we focus on art as a place 'where things can happen’ rather than a thing ‘that is in the world’ we will <br />
+see how an engagement between art production and critical <br />
+theory becomes necessary.</em><sup>2</sup><br />
+        <br />
+So began a dialogue structured around the idea of a residency as a method for exploring notions of temporality, with a plan to undertake research in and on the site, whilst also conducting experiments to explore growth, movement and change as markers of time. Starting from the concept that all art is a process of framing, the project aimed to explore how we make meaning in the everyday through techniques of observation, proposition and re-presentation. In the interest of providing some direction to this somewhat open, exploratory brief, the following timeline was devised: <br />
+Week One: In the first week Thea made a series of <em>observations</em>, imaging her local surroundings via a range of recordings, mappings, chartings and drawings. <br />
+ Week Two: Working through a series of<em> propositions</em>, Thea experimented with raw and collected material such as refracted light and plants, to explore growth and movement through<br />
+everyday situations.<br />
+Week Three: Thea attempted to stage a series of<em> <br />
+re-presentations</em> to recontextualise these observations and experiments in a range of media as a means of generating new encounters, experiences and meanings. <br />
+
+A blog was also started as a means of documenting Thea’s work and our ongoing dialogue.<br />
+          <br />
+<span style="border-bottom:1px solid black; padding-bottom:1px;">Fieldwork</span><br />
+ <br />
+ <em>Viewing this project in terms of a process of ‘fieldwork’ seems more and more apt. A residency, after all, is really about the investigation of a new field - an unfamiliar site and the experiences, encounters and events which may take place within it</em>.
+<br />
+        <em>The idea of a field is also a way of thinking about a framework or boundary; Eelco Hooftman describes it as “a boundary around a set of operations.” <sup>3</sup>  It is a boundary not just in a physical sense, relating to a site or landscape, but also relating to a field of thought, a field of investigation, a field of vision, etc. A fieldworker, then, is someone operating within the boundaries of a particular field, whether it’s material or conceptual. … One could say that artists produce their own fields. Perhaps in this case the boundaries are more flexible, stretching or
+contracting to encompass a particular area of interest, without the restrictions demanded by disciplines dependant upon scientifically verifiable outcomes. In fact one could argue that there is not necessarily a need for any specific outcome at all, aside from the activity itself.</em><sup>4</sup><br />
+<br />
+<span style="border-bottom:1px solid black; padding-bottom:1px;">The Production of Critical Social Space; fieldwork as praxis</span><br /><br />
+If we accept that '(Social) space is a (social) product,' <br />
+it then follows that 'the space thus produced also serves as a tool of thought and of action'<sup>5</sup>  In this way, space can be thought of as hegemonic or critical. However, one does not merely find these critical social spaces, waiting patiently &quot;somewhere, out there,&quot; <br />
+they must be actively created. Potentials need to be investigated, propositions made, and experiments carried out. We need to develop a praxis of ‘space as a practiced place.’<sup>6</sup>  And it is this conception of space – not as a given, but assomething that we activate through performance – that is made manifest through Thea’s practice. De Certeau wrote of 'pedestrian speech acts,' declaring that the act of walking is to the city, what speaking is to language.<sup>7</sup>  In this way, Thea’s fieldwork&mdash;her walks, recordings, conversations,readings and writings&mdash;articulates a new dialogue with the socio-spatial environment of Alterations/Plimmer Steps/Wellington.<br />
+<br />
+<span style="border-bottom:1px solid black; padding-bottom:1px;">"Make a map, not a tracing"</span><br />
+<br />
+<em>The final act I performed in the space, after washing the windows, was to draw a diagram which detailed various walks I have undertaken over the course of the three weeks. Some were recurring, like going next door for coffee, others were related to specific events, such as planting pips. I've been undecided about whether this is a satisfactory way to leave the project; however, in coming back to the space now after a short break I've come to the conclusion that it is somehow appropriate. In a way, the project was never really occurring in the physical space of Alterations anyway; it was occurring in the comings and goings to and from the space, in following paths suggested by my encounters with the surrounds and by the people I've met (as well as in the virtual spaces of this blog and in the dialogue between Andrea and I – much of which has been invisible behind the public facade of the project.) I think the diagram functions simultaneously as a series of observations, propositions and as a re-presentation, thus bringing the process full circle. Initially I wanted it to be a map which could be followed, but I realise now that it has become more a personal record of observations and processes - though I hope it also acts as a proposition for any number of detours that anyone can undertake.</em><sup>8</sup> 
+<br />
+         <em>What distinguishes the map from the tracing is that it is entirely oriented toward an experimentation in contact with the real …The map is open and connectable in all of its dimensions; it is detachable, reversible, susceptible to constant modification. It can be torn, reversed, adapted to any kind of mounting, reworked by an individual, group, or social formation.It can be drawn on a wall, conceived of as a work of art, constructed as a political action or as a meditation.</em><sup>9</sup></p>
+
+<p style="color:#333; background-color:#FFFFFF; color:#CCC;  font-size:xx-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:55px;  ">
+<sup>1</sup> Here I am referencing Jane Rendell's discussion of critical spatial practice in <em>Art and Architecture: A Place Between</em>. London: I. B. Tauris, 2006.<br />
+<sup>2</sup> Simon Sheik's 'Objects of Study or Commodification of Knowledge? Remarks on Artistic Research', <em>Art & Research: A Journal of Ideas, Contexts and Methods</em>, <br />
+Vol 2. No. 2, Spring 2009. <br />
+www[dot]artandresearch[dot]org[dot]uk/v2n2/sheikh.html, retrieved 30 October 2010.
+<sup>3</sup> Eelco Hooftman, 'The Collective Memory of a Programme' in <em>Fieldwork</em>. A/S/N (eds.). Edinburgh: A/S/N Mutual Press, 2009. p20.<br />
+<sup>4</sup> Thea Rechner, 'Reading: Some Thoughts about Fieldwork'. www[dot]alterations-resident[dot]blogspot[dot]com, 23 February 2011.<br />
+<sup>5</sup> Henri Lefebvre, <em>The Production of Space</em>. Oxford: Blackwell, 1991. p26.<br />
+<sup>6</sup> Michael de Certeau, <em></em>The Practice of Everyday Life. Berkeley: University of California Press, 1988. p117.<br />
+<sup>7</sup> ibid. p97.<br />
+<sup>8</sup> Thea Rechner, 'Walking Diagram (Final Act)', www[dot]artandresearch[dot]org[dot]uk/v2n2/sheikh.html, 3 March 2011.<br />
+<sup>9</sup> Gilles Deleuze & Felix Guattari, <em>A Thousand Plateaus</em>. Minneapolis: The University of Minnesota Press, 2005. p12. </p><br /><br /><br />
+<br />
+
+  
+                                    <div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">  On Sat, Apr 21, 2012 at 7:24 PM, Alterations wrote:</span><br />
+<br />
+                                                         
+                                                         
+                                                          Kelvin Soh for Alterations<br />
+ 
+Everything Must Go<br />
+ 
+31.3.11 - 2.4.11 <br /><br />
+
+Everything Must Go <br />
+Arron Santry
+
+                                      </p>
+  
+  <p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+    
+    
+    Kelvin Soh's exhibition for Alterations, 'Everything Must Go', positioned
+    itself in the contested site of the contemporary commons. Set up as a
+    kind of clearance sale in a reconfigured retail space cum gallery, the work
+    redistributed commodified water and complementary products by simply giving
+    it away. As a proposition for establishing the world's waters as a commons, the
+    exhibition demonstrated not only a viable means of resisting the impulses of the
+    neoliberal economy but turned the very notion of ownership and
+    commodification on its head; water is not only 'everybody's property'
+    (purported by the neoliberal commons) but further, as implied by this project, is
+    an unownable resource.<br />
+         Throughout the duration of the exhibition, bottled water was offered freely,
+stripped of all branding and rendered as generic as the shape of container it was
+packaged in. To make absent the visible economic indicators that contemporary
+marketing has programmed us to rely on is a subversive gesture, but the
+revelation it offers is simple: water is water. This sentiment is echoed in a poster
+also given away during the exhibition, which depicts a rectangle of uniform blue
+ocean as to be found on a Google map. The cardinal directions are superimposed
+in a futile gesture to cartography. The map, though specific to a particular
+(unknown) location, could be any body of water. The ambiguity of scale in the
+poster functions as a critique of the logic that enables bottles of water to be
+bought and sold, while simultaneously dismissing the often superficial
+differences that companies claim distinguish their water from any other. The
+work is an index that has multiple applications. It could be read as the few
+square metres of some suburban pond, but could just as easily be the entire
+Atlantic Ocean: water is water is water.<br />
+        Just outside the town of Hollis, Maine, a city that sprung up around Little Falls
+Plantation on the banks of the Saco River, <br />
+is the largest bottled-water factory in
+North America. Behind its industrial facade, 24 million bottles of Poland Spring
+water sit in a 6-acre staging area on double-stacked pallets 8 feet high. Their
+motto: What it means to be from Maine.
+In San Pellegrino Terme, Northern Italy, a town roughly a quarter of the size of
+Hollis, naturally carbonated water bubbles up from a spring at the foot of a
+Dolomite mountain wall before being bottled and sold across the world. In 1889,
+more than 35,000 bottles were produced; <br />
+by 2010, output had reached 50,000
+bottles per day. Estimates put the value of the bottled water industry at around
+US$60 billion; the volume represented by this figure is some 115 <br />
+million cubic
+metres.</p>
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+  Bottled water was offered freely, stripped of all branding and rendered as generic as the shape of container it was packaged in.</p>
+ 
+ 
+ <p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+ 
+Bottled water represents a unique example of the function of capitalism, a
+perfect distillation of the conflict between those who have reaped its gains
+and those it has brought to their knees. To the latter, and especially to
+the one billion people without easy access to it, water remains the most
+fundamental element of human life; to the rest, bottled water is an
+
+acknowledgement of our demand for instant gratification and an indictment
+of the wasteful excesses of late-capitalist life.<br />
+        There is an increasing imperative to think of the Earth's waters as being free—the ocean as a commons shared by all, a resource that does not need to be paid
+for. The idea of owning the waters seems as immoral as it does impossible.
+Particularly in the context of global environmentalism, which positions the
+oceans and other environmental commons as sites for humanity to take up an
+ethical stance and rally towards a differing economic structure. The world's
+water is as likely a site of resistance as any.
+And yet, the notion of an environmental global commons seems to have been
+co-opted by neoliberalism and positioned as a basis for capitalist growth.
+The commodification (division and enclosure) required by capital
+threatens to redistribute the commons as a network of discrete hierarchies,
+for the purpose of differentiating ownership and the use-value of these natural
+resources.<br />
+         Typically, the commons are formalised within the taxonomy of economics—we
+speak of resources, ownership, value in relation to the commons. Perhaps it is
+this conception that leaves the door open for a neoliberal takeover. Soh's work
+leads us to think of the commons as a set of socio-economic relations that must
+be practiced and performed in order to resist reproducing the conditions of the
+contemporary economic climate. The objects offered are tangible, yet through a
+series of performative gestures set in motion a resistance to engrained economic
+structures.<br />
+        The visitors to the exhibition, many of whom were passerbys of a public
+thoroughfare within a commercially orientated space, were invited to take
+whatever they wanted for free. That this gesture, taking 'something' for 'nothing',
+feels so unnatural is a symptom of the encroachment of capital's incentive.
+The idea of value is predicated on the notion of monetary exchange; when this
+balance is thrown out, we are forced to re-examine the market forces that have
+come to dominate shared social interaction. Through this destabilisation, Soh
+highlights the absurdity of the free market approach to the commons and makes
+a proposition for a gift economy that resists the taxonomy of neoliberalism, in
+favour of a relational structure that embraces the utopic impulse issued by the
+notion of the commons.</p>
+ <br /><br /><br />
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;"> On Sat, Apr 21,  2012 at 7:23 PM, Alterations wrote:</span><br />
+<br />
+                                                         
+                                                         
+Alex Martinis Roe interviews Wendy Webster for Alterations<br />
+ 
+Online broadcast<br />
+29.6.11<br /><br />
+ 
+
+Persons in Tense <br />
+Kel Glaister</p>
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+
+
+The work <em>Alex Martinis Roe interviews Wendy Webster</em> is a video of a spoken
+exchange, part interview, part conversation, undertaken for broadcast as an
+artwork. It is a document of people speaking to each other, about documenting
+people speak. The people speaking are Alex Martinis Roe, an artist, and Wendy
+Webster, a historian. But, who are the persons?<br />
+        This interaction isn’t really a conversation, although it is similar. A conversation
+is not had for an audience. While not necessarily secret, it is private: a
+conversation faces inwards. <br />
+It can involve many people, but only involves two
+persons directly: <em>I</em> and <em>you</em>. First and second. I speak with you. We take turns
+speaking as <em>I</em>. Perhaps <em>I</em> and <em>you</em> will emerge as <em>we</em>. But there is another person,
+the third person. <em>They</em> (or him or her). The person whom <em>I</em> and <em>you</em> speak
+about, of, around, over. <em>They</em> is not in the ‘here-now’ of the conversation. <em>They</em> doesn’t get a say. If there is a <em>they</em> who hears the conversation, <br />
+that <em>they</em> is an
+eavesdropper or interloper.<br />
+        The interaction in the video is ostensibly an interview, although this doesn’t
+quite fit either. An interview is between<em> I</em> and<em> you</em> as well, but not in the same
+way. I speak to you. The interviewer, <em>I</em>, sets the context, pace and bearing of
+the exchange, and retains the means to control its dissemination. The direction
+is one-way; a conversation with a ratchet mechanism. In this format, there is
+the <em>I</em> speaking who does not take turns with the <em>you</em>, here the interviewee,<sup>1</sup>  but
+instead instructs <em>you</em> to respond. There may be a<em> they</em> whom <em>I</em> and <em>you</em> speak
+about, but crucially there is always a <em>they</em> whom <em>I</em> and you speak towards. An
+interview is not simply an event that takes place. It is always a document, to be
+transmitted further in some way.<br />
+        The interview is educative, or exploratory, or informative. Interviews
+communicate personal accounts of a situation or argument, and can produce a
+faceted model of whatever is being studied. Interviews are undertaken for the
+benefit of someone. However, inherent to the interview is a denial of authorial
+power to the audience, and to the interviewee. The speakers acknowledge the
+similarities that this project has on that score. As Wendy says to Alex, ‘In the end
+it’s something that you can claim authorship of and the other people are sort of
+participants, rather than… they’re not the authors, <br />
+are they?’<sup>2</sup> </p>
+         
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+Inherent to the interview is a denial of authorial power to the audience, and to the interviewee.
+
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+This format presumes that <em>they</em> is lacking information;<sup>3</sup>  they is a vessel to be
+filled and enlightened by the interview. The <em>you</em> has something that is extracted
+by the <em>I</em> and subsumed into a chosen narrative by the <em>I</em>; the authority and author
+of the interviewer. This <em>I</em> is typified by the voice over. As Wendy states: ‘The voiceover 
+in a documentary is telling you what to look at and what this means.’<sup>4</sup> <br />
+        The interview is a problematic animal, one that can rob <em>you</em> of your chance to
+be <em>I</em> in the story as it moves onwards. That is to say, you can’t be the subject
+of the interview and the voiceover at the same time. But also as Alex says ‘It’s
+quite difficult to avoid that, and in a way I think if you avoid it, you no longer
+make a point about the problems of that.’<sup>5</sup> The <em>I</em> cannot dissolve the fact of
+their speaking in the first person, their ‘<em>I</em>-ness’. Attempts to do so either simply
+conceal the authorship of the <em>I</em>; a potentially insidious claim to objectivity. Or
+one can run into a different danger, in the attempt to evade the game. As Alex
+wrote to me, ‘in the event that one succeeds in truly sharing authorship with
+the viewer/other protagonists, one can no longer criticise the way the subject
+is repeatedly constituted and represented by “autonomous” authorship as a
+discreet, coherent totality.’<sup>6</sup> <br />
+        One could try to identify persons in the form of address known as an artwork,
+although with trepidation. <em>I</em> is the artist. <em>You</em> is the viewer. <em>They</em> is the subject
+of the work. Yet is this really so? And furthermore, how do the power relations
+work here? No one believes in author-gods anymore, this much seems obvious.
+Does the format of the artwork really grant the <em>you</em> control? That is to say,
+where the right of return is in the act of viewing itself, not in the production
+of a further utterance in kind. Alex’s use of the <em>I</em> in this artwork is comparable
+to an interviewer’s; ‘even though I wasn’t doing interviews, to some extent
+the kind of control and the power control of authorship I have as an artist is
+somehow similar to the way an interviewer has a kind of authorship control
+over a situation.’<sup>7</sup>  But here she is also <em>they</em>, given she is one of the subjects of the
+video. What happens when the subject and the artist, and the audience as well,
+are pushed so close together that the positions <br />
+become indistinguishable?<br />
+        Maybe thinking about time and tense helps here. We not only need <em>persons</em>, to
+modify verbs, but also <em>tenses</em>. These conjugations set the time and place of what
+is being discussed. A pertinent feature of spoken exchanges is that they are
+timely (or more accurately, timeful). We speak now, about then (before or after).
+In contrast, my responses are here stuck in writing; extending their shelf life by
+depriving them of punctuality. The writing will always be here, but never (have
+been) on time. Early for <em>you</em>, late for <em>them</em>.<br />
+        So the question now is when are these persons speaking? The act of
+documenting, of producing a document, allows several continuous tenses to
+coexist. <em>I</em> am writing, <em>they</em> are speaking, <em>you</em> are reading. Alex and Wendy speak
+continually in <em>their</em> present, which anticipates and founds the present that <em>you</em> and I now have. At the time of <em>your</em> reading, this exchange took place in the past,
+as did the writing of this essay (I project myself forward to meet you when you
+are, through writing.) So Alex and Wendy’s present, and mine, is your past, but
+we all nonetheless speak with the urgency and immediacy of the present, the
+responsibility that the present has for the future.<br />
+        I have been (am being) deliberately obfuscatory. You may (have) notice(d).<sup>8</sup>
+I’ve chosen to write this way because although this video may appear to be
+straightforward, <br />
+it really isn’t. So I respond likewise.<br />
+        Why have I been writing about grammar? The subject discussed in this video is
+how to interview, the problems and the complications of it. Grammar is a set of
+rules how to construct what is to be communicated in language. These rules are
+needed for speakers to understand each other; we cannot speak without them.
+I would contend that this video begins to interrogate a ‘grammar’ of interacting
+with others.<br />
+        The rules that make up grammar are arbitrary, but they are not neutral.
+Grammar can subtly and almost imperceptibly shape thought, and set the limits
+of what it is possible to think. Perhaps there is not only a set of rules one follows
+(unconsciously) when constructing sentences, but also a set of rules one follows
+(unconsciously) when constructing interactions. And this ‘grammar’ serves to
+structure, restrict and perhaps even create the content of those interactions.<br />
+        I have attempted to sketch out some elements of the ‘grammar’ that is relevant
+to this video. The interaction in question has elements of the conversation, the
+interview and the artwork. The distribution of power and authority in every
+(overlapping) category, and even in every utterance, is different, and as such the
+particulars of their ‘grammars’ differ also. This video identifies the categories
+relevant to its structure as it simultaneously refuses to conform to them,
+remaining never only interview, conversation or artwork. And in its questioning
+of these categories, the video moves towards changing them as it goes. For it is
+precisely because grammar is arbitrary that it can be changed. But it must be
+recognised, challenged, <em>questioned</em>.<sup>9</sup> Given the ubiquity of grammar, <br />
+this can
+seem impossible (the fish in the water <br />
+doesn’t notice it’s wet).<br />
+          The key question is which person gets to speak in the first person? To speak as
+<em>I</em>? As Alex and Wendy discuss, in the context of the interview the first person
+outlines the rules, defines the game, potentially at the expense of others. But
+this situation within the video is immediately made unstable when Wendy
+questions Alex first, spinning the poles. The interaction both discusses and
+demonstrates how one can play with the grammar of such an interaction. The
+staging of the video even begins by inviting <em>they</em> (meaning us) in, opening a
+private Skype conversation outwards to the viewer. This puts <em>they</em> in the position
+of an eavesdropper. It doesn’t last long though. The image cuts out suddenly
+while Wendy and Alex are discussing the pros and cons of anonymity. Counter
+intuitively, the removal of image actually pulls <em>they</em> in further to the exchange,
+perhaps by revealing the power of the viewer, in order to level it to some extent
+with the oscillating power <br />
+of the speakers.<br />
+        But Alex’s position as <em>I</em> can never really go away, as Wendy says to Alex: ‘So
+your control wasn’t very evident. But in the end, it was there.’<sup>10</sup>  The video is 
+intriguing because, even though there are only two people, it’s crowded with
+persons, with grammatical positions. Alex the interviewer becomes Alex the
+interviewee, Wendy similarly swaps positions without notice. Both take up and
+relinquish authorial positions. Oral history techniques swim with video art ones.
+<em>I</em> and <em>you</em> constantly orbit <em>they</em>, so as not to overwhelm, or to stagnate. Perhaps it
+is to create space for <em>they</em> to turn into <em>I</em>, as I have here.<br />
+        And a follow-up question: how to be a responsible <em>I</em>? To speak in the first person
+as an author of the interview carries certain threats to the agency of others. Even
+when asking others to provide their own narratives, the gesture is to absorb
+this into the larger narrative of the project, to take over the <em>I</em> position by writing
+the name of the author large at the top of the page. Yet interaction has to be
+structured, and if one moves too gently around being <em>I</em>, then the ethical problems
+could just be papered over. The question here is one of narrative, and the
+production of a coherent narrative can be the gesture that attempts to control
+the narrative-building of others. Alex, in this and other related projects, is ‘not
+trying to create a linear narrative, but creating a montage, where you
+would see each event as something in itself.’<br />
+        The interaction in this video is a constant shifting of power relations, between
+persons and across tenses. Like some sort of playground tag game; the aim is
+to disperse <em>I</em>-ness as soon as <em>you</em> get it, but you have to declare that <em>you</em> are <em>I</em> first. So everyone could be <em>I</em>, but not always, and not in some impossible ideal
+situation where power has been redistributed evenly. That would be no solution,
+because then this new distribution would have to be defended and policed. And
+neither is it simply a matter of flipping the terms, and hoping no one notices the
+structure is the same. Perhaps a sustainable ethics is one that insistently shifts
+power from one person to the next, in the manner of a conversation.<br />
+        This shifting happens here not to create a new grammar or destroy the
+established ones, but to acknowledge its necessity and to find the best way to
+mould it to our needs. This video looks forward, to find a way to interview that
+can navigate the ‘ethical fragility’ of power relations built into documenting
+people speaking. And that’s not a project that is finished. It doesn’t produce an
+instruction sheet to follow and to be filed away under <em>resolved</em>.</p>
+
+<p style="color:#333; background-color:#FFFFFF; color:#CCC;  font-size:xx-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:55px;  ">
+
+<sup>1</sup> I don't mean that the interviewee is required to refer to themselves in the second person, simply that they are not in
+control of the interaction in the same way.<br />
+<sup>2</sup> Wendy Webster in<em> Alex Martinis Roe Interviews Wendy Webster</em>, 29 June 2011. She goes on to say; ‘But they
+are the authors of their own individual bits.’ The interviewer doesn’t plagarise the words of their subjects, doesn’t claim
+authorship in that way, and in fact offers the stage for the interviewee to state their case. It is the larger narrative that the
+interview produces which is authored by the interviewer.<br />
+<sup>3</sup> This is a necessary presumption, and one that is not always, or even usually, true. But the format must presume that
+information will be transferred, otherwise there would seem little point.<br />
+<sup>4</sup> Wendy Webster in<em> Alex Martinis Roe Interviews Wendy Webster</em>, 29 June 2011.<br />
+<sup>5</sup> Alex Martinis Roe in<em> Alex Martinis Roe Interviews Wendy Webster</em>, 29 June 2011.<br />
+<sup>6</sup>  Alex Martinis Roe in email correspondence, 31 July 2011.<br />
+<sup>7</sup>  Alex Martinis Roe in<em> Alex Martinis Roe Interviews Wendy Webster</em>, 29 June 2011.<br />
+<sup>8</sup> I’m waiting (in the future) for notice of my grammatical errors.<br />
+<sup>9</sup> The prime example in English grammar proper is the interrogation of automatic use of masculine singular pronouns in
+English where a gender non-specific is called for. This practice posits the universal, the normal, as a masculine agent, and
+also (thankfully) is rarely done anymore. Of course the argument about use of ‘they’ as the singular gender non-specific
+third person pronoun rages on. At least you know where I stand.<br />
+<sup>10</sup> Wendy Webster in<em> Alex Martinis Roe Interviews Wendy Webster</em>, 29 June 2011.</p>
+<br /><br /><br /><br />
+
+
+
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;">On Sat, Apr 21,  2012 at 7:22 PM, Alterations wrote:</span><br /><br />
+                                                         
+                                                         
+Lauren Winstone and Nick Spratt for Alterations<br />
+ 
+Responses to New Zealand Potter Magazine<br />
+31.7.11 - 31.12.12<br /><br />
+ 
+Thinking about the insides and outsides of a pot*<br />
+Lauren Winstone and Nick Spratt</p>
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+
+
+<em>One of the principal factors contributing to the ready sales for pottery was
+the Walter Nash government protections, brought into being in 1957 to
+shelter fledgling and vulnerable New Zealand industries from competition
+offshore. These import restrictions meant traditional tableware, from
+England particularly, became more expensive due to imposed tariffs, so
+many turned to the cheaper local product. Tom Clark of Crown Lynn&mdash;the
+behemoth that was growing from the amalgamation of West Auckland
+ceramic industries – was one who lobbied for maintenance of the
+restrictions that applied to tableware to continue well beyond the foreign
+exchange crisis that instigated the protections. So significant were these
+restrictions that Crown Lynn’s only competition was other New Zealand
+producers, all smaller in scale, such as Titian Potteries in Auckland run by
+the inventive Cameron Brown with his extravagantly fanciful ceramics or,
+rising fast in popularity, the local potter.</em><br />
+<br />
+Moyra Elliot and Damian Skinner, <em>Cone Ten Down: Studio Pottery in New Zealand</em>. 1945–1980. Auckland: Bateman, 2009. p105.<br />
+<br />
+<br />
+<br />
+
+In 1962 the English magazine <em>Pottery Quarterly</em> published an issue, guest edited
+by Dr. Terry Barrow, which focused on ceramics in New Zealand. Barrow had
+been part of the editorial committee that started <em>New Zealand Potter</em> magazine
+in 1958, and the articles he brought together for Volume 7, Number 27 of <em>Pottery
+Quarterly</em> provided an overview of the developing studio pottery culture in New
+Zealand, reflecting on its recent history as well as discussing possible directions
+for the future. Writers included Doreen Blumhardt and Helen Mason, who had
+helped start <em>New Zealand Potter</em> with Barrow, as well as regular contributors to
+the magazines such as Len Castle, Roy Cowan and <br />
+Peter Stitchbury.<br />
+        Whilst visiting the Te Papa archives to view some of the early issues of <em>New
+Zealand Potter</em> we were shown a collection of <em>Pottery Quarterly</em> that had come
+from Blumhardt’s collection. In terms of style, scale and content they had
+obviously been an influence on <em>New Zealand Potter</em>. It was no surprise then to
+see a small note at the back of its first issue recommending subscriptions to<em> Pottery Quarterly</em> as an ‘excellent publication of interest to all potters.’ Almost
+four years later the magazine that had been a source of inspiration became a
+forum for them. In some respects the issue of <em>Pottery Quarterly</em> that Barrow
+guest edited temporarily fused these two publications together, providing a
+more comprehensive introduction to New Zealand pottery for an international
+audience whilst at the same time creating an opportunity for the local potters
+to look back at their own context.
+It’s hard to say whether it is the time or the distance, but there is a sense of
+perspective and inquiry in this issue from 1962 that we couldn’t find in <em>10 Years
+of Pottery in New Zealand</em>, the magazine’s official overview that was published
+five years later.<br />
+<br />
+
+<em>L.W: But there is quite an interesting sense that so many people in the
+community were influenced, that their production&mdash;however big or small&mdash;was shaped by the things that they were reading in </em>New Zealand Potter<em>, like
+the kiln designs and the glazes and...<br />M.E: You’ve got to remember that the import restrictions, which helped our
+sales hugely at the time, also applied to bringing in magazines and books.
+Although I recall one or two books coming in, from England&mdash;Tony Birks,
+and from America&mdash;Susan Petersen. No other magazines though...</em><br /><br />
+
+‘Moyra Elliot responds to the first editorial’, Moyra Elliot interviewed by Lauren Winstone
+and Nick Spratt for <em>Responses to New Zealand Potter Magazine</em>, www[dot]asReads[dot]in/NZP,
+Auckland, 2011.<br />
+<br />
+<br />
+<br />
+
+It wasn’t until we interviewed Moyra Elliot that we became aware of the way
+that the trade tariffs in New Zealand throughout the 1960s and 1970s had made
+access to overseas publications so difficult. Book reviews, adverts for book
+stores and recommended reading lists appear quite frequently in the copies
+of <em>New Zealand Potter</em> from the late 1950s and early 1960s. The writing in the
+magazine at this time also suggested a community that, in its efforts to create
+a local spin on the Anglo-Oriental tradition, was looking out and reaching out,
+searching for new perspectives as well as external vantage points from which
+it could reflect. However as the decade moves on the references to overseas
+publications becomes increasingly scarce. Presumably this was not due to a
+lack of interest, but more to do with the economic effects of the tariffs. The very
+import restrictions that helped turn local pottery into a thriving industry seemed
+to have also left <em>New Zealand Potter</em> magazine as a crucial yet solitary voice.</p>
+
+<p style="color:#333; background-color:#FFFFFF; color:#CCC;  font-size:xx-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:55px;  ">
+
+* Gwynneth Porter compares the structures of communities and the structures of pots in the
+interview: ‘Gwynneth Porter responds to the first editorial’ from <em>Responses to New Zealand Potter
+Magazine</em>, www[dot]asReads[dot]in/NZP, Auckland, 2011</p><br /><br /><br /><br />
+
+
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;"> On Sat, Apr 21,  2012 at 7:21 PM, Alterations wrote<br />
+:</span><br />
+                                                         
+                                                         
+Michael Stevenson for Alterations<br />
+30.11.11 -<br />
+Introduccion a la Teoria de la Probabilidad<br /><br />
+ 
+Excerpt from artist's notes: <em>The Island and the Aeroplane</em><br />
+ Michael Stevenson<br />
+
+</p>
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+
+<br />
+In <em>Aleph Zero: An Introduction to the Philosophy of Mathematics of the Infinite</em>, published by the National Guard, in the University of Panama. ...the bodyguard [mathematician, philosopher, sergeant in the National Guard] writes, 'It is true that mathematics, which resolves problems of the universe, cannot resolve those in society. Society is an intimate corner, one of the most modest parts of the universe. Here lives the girlfriend who waits for the worker who mines copper. It is found in the mountains, which is made into wire. It connects the motor, which lifts the rocket that travels to the stars. And in this rocket travels also some of the traveller's troubles and loves. And the worker, at night on the mountain, sees it twinkling and shining in the universe. And we hope, because this is the projectile of revolution, that one day, the personal problems, and those of society, will also be universal problems, and the problems of the universe will also be problems for the whole of society.'</p>
+<br /><br /><br /><br />
+
+
+
+<div style="border-left: 1px solid #EBEBEB; border-top: 1px solid #FFF; padding-left:10px;">
+<p style="color:#333;   padding-bottom:20px; margin-top:0px; font-size:x-small; font-family:Arial, Helvetica, sans-serif; line-height:140%;  padding-right:100px;"> 
+<span style="color:#CCC;"> On Sat, Apr 21,  2012 at 7:20 PM, Alterations  wrote:</span><br />
+<br />
+                                                         
+                                                         
+William Hsu for Alterations<br /> 
+A tour in the Wellington Harbour<br />
+18.12.11<br /><br />
+ 
+Round trip<br />
+ Jon Bywater<br />
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+
+A small crowd is assembling on the wharf. From various directions
+familiar faces heave into view through the bright afternoon sun.
+It is an early summer Sunday. Laura has just flown back from a
+family wedding. Lauren and Nick have come from Auckland for the
+occasion. Melanie, Louise and I have just got back to Wellington from
+Marnie and Claire’s civil union celebration up the coast. In all about
+twenty of us have been drawn here for William Hsu’s Alterations
+project. I couldn’t name everyone myself, but it’s easy to imagine
+a full round of introductions being made if someone were to take
+charge and initiate one.<br />
+        Respecting the artist’s role in things, though, we greet those we
+do know, and mill about patiently, at the ready to take directions.
+Simon got here before me. We’ve worked out that we’re in for a ferry
+ride, but the otherwise unspecified nature of William’s work lends
+an air of anticipation, a sense that there is something about to be
+revealed. We joke self-consciously about a Magical Mystery Tour,
+that that seagull is indeed part of the art; making fun of our comfort in
+such esoteric situations, perhaps? It reminds me of Open Day at art
+school, and the similarly awkward, routine quips about how the junk
+under the stairs or that spade in the flower bed could be someone’s
+work.</p>
+
+<p style=" margin-top:0px; margin-bottom:0px;  color:#666;  text-align:left; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; line-height:130%; margin-right:100px; margin-left:50px;">
+ One image <br />
+ persists: blood from the abattoir 
+ colouring the sea.</p>
+
+
+<p style="color:#333; background-color:#FFFFFF;  font-size:x-small; font-family:Arial, Helvetica, sans-serif;  line-height:140%; margin-right:100px; margin-left:20px; margin-bottom:0px; padding:35px;">
+  A young man no one seems to know poses by the water’s edge.
+His op shop dandy’s attire&mdash;waistcoat, hat and tie—accentuates
+his performance of the aesthete. He is reading something literary
+in a conspicuous display of absorption; quite plausibly an actor in
+William’s hire. Can I see the title? Laura and William welcome us,
+warmly and quietly. The group consolidates, huddling to catch their
+words muffled by the breeze. Neither explains much more about what
+will happen. The stranger is apparently not part of things, nor even
+here for the work. He has got up and wandered off.<br />
+        The group boards the small launch that has docked. Some head
+through the cabin out into the open air, others stay inside. Choosing
+seats, we take in the miniature disco ball on the ceiling, the CD
+jukebox on the wall and the blackboard menu for the bar service
+towards the bow. Other charters might be for Xmas parties at this
+time of year? Services on the Waitemata Harbour, to Waiheke or
+Rangitoto, make the routine familiar to me: unnecessarily loud for the
+conditions, the public address blares into life with a greeting from the
+two-man crew, and we receive instructions on obeying instructions in
+the ever unlikely event of an emergency.<br />
+        We proceed into the open harbour. David, Ben and Simon egg
+one another on, and each buy a beer. The same person who made
+the announcements begins to read into the microphone. Here
+suddenly an input from the artist registers against all that is incidental
+to our situation. My search to connect the experience I have been
+having with an intention closes in on this narration, seeking possible
+fits for a concept.<br />
+        The word ‘meat’ is repeated from sentence to sentence. A link
+between the maritime and colonial agriculture is being related. I
+think of the hill on the drive to Dunedin with the memorial to the first
+export shipment of frozen meat. We hear a history of Petone as we
+approach it across the water. I ask myself what it is like to hear this
+here, watching the still distant horizon, seeing the place named?
+Could this ride be familiar to residents? To meat exporters? We are,
+too, at sea. “A tightly-knit working class community of a sort and
+size uncommon in New Zealand.” The era when labour was a more
+characteristic form of work. Familiar ideas of class, their continued
+importance but difficulty under current conditions….<br />
+         Imagining how a place must have been while in that place
+feels familiar. The good humoured participation of the captain in
+this intervention suggests the established nature of the form: we
+were on the crater’s rim at Maungawhau near the trig point, and a
+handsome young employee of the Super City offered us a small
+leaflet, explaining as I already had in the car that whau is a shrub,
+that this was a pa site. I have been on the train to Kirikiriroa to teach,
+hearing the commentary from NZ Rail for the umpteenth time that
+spring over the carriage’s speakers. I like my landscape historicized,
+I realise. The sight of a didactic panel pleases me, it gives me a hand
+in knowing what it means to be here, a place to stand. A bookworm’s
+shelter in the outdoors?<br />
+        The artist’s voice ventriloquises that of historical record. What
+sources, which library, I wonder? At home later, I cross-reference.
+Wikipedia tells me: 'Petone was the first European settlement in the
+Wellington region…. The first settlers arrived here in January 1840,
+on the ship Aurora. After the arrival of a second ship, the Cuba, plans
+were undertaken for the building of the settlement of Britannia on the
+site. As it sits in what was once the swamp, the earliest settlers found
+life hard, and the settlement was abandoned after only a few months.
+A new site was chosen around the shores of what is now the city of
+Wellington, New Zealand's capital. … Until the 1980s Petone was a
+thriving, largely working-class town and borough, and the location of
+large industrial sites. The majority of these, including car assembly
+and meat processing factories, closed in the 1980s, resulting in
+gradual economic decline. … The suburb has since enjoyed renewed
+economic growth, using its early European heritage as a draw for
+tourists….'<br />
+        The boat has turned, and on the homeward leg I move less
+frequently between the idea of my experience and the experience
+itself, putting aside reflection on the form of this work and other
+works. I think, though, of William’s work tracing the flows of waste
+water from gallery site to sea, <em>Crossing the Isthmus</em>, at A Center for
+Art, Auckland, 2008, and the response he made to the Anyang River,
+<em>Collecting Towards a Paper Museum in Anyang</em>, for the Seoksu Art
+Project in South Korea, and closer to us now, his investigation of the
+geological and social histories of Kelburn for <em>The Future Is Unwritten</em> exhibition at the Adam Art Gallery Te Paataka Toi in 2009, <br />
+curated by
+Laura.<br />
+        One image persists: blood from the abattoir colouring the sea.
+This echo of meat and ports and public baths somewhere in my mind,
+I become present again to the pleasures of being here; the novel
+views; the beauty of the water, the light, and the land. The roll of the
+windy sea is exciting, the speed, bumps and drops. We have been
+out and back, around the island where another wedding was. I sense
+myself taking responsibility for my own awareness of the moment and
+thoughtfulness about the past. Through the splashed and weathered
+window, in a wave I think I see a penguin.</p>
+
+
+</div>
+<br /><br />
+</div><br /><br />
+</div><br /><br />
+</div><br /><br />
+</div><br /><br />
+</div><br /><br />
+</div><br /><br />
+
+
+                                                  </div><br /><br />
+</div>
+                                                         
+
+                                                            
+                                                <br />
+<br />
+            
+                                                      </div></td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </center><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </body>
+</html>

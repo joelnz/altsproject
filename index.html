@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+<meta property="og:title" content="Alterations">
+<meta property="og:description" content="A project space motivated by art & research developed within the condition of free-time. A year long series which tests out interventions and proposals for new exhibition formats.">
+<meta property="og:image" content="apple-touch-icon.png">
+<meta property="og:url" content="http://www.altsproject.info/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_NZ">
+
+<!-- Other meta tags -->
+<meta name="keywords" content="project space, collective, art, research, exhibition, interventions, proposals, wellington, new zealand">
+<meta name="description" content="A project space motivated by art & research developed within the condition of free-time. A year long series which tests out interventions and proposals for new exhibition formats.">
+<meta name="author" content="Alterations">
+
+
+
+<!-- Link tags -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<title>Alterations</title>
+</head>
+	<style>
+		body, html{
+		margin: 0;
+		padding: 0;
+			 font: 12px Helvetica, Arial, sans-serif;
+		}
+		a, a:visited{
+			color: black;
+		}
+		#container{
+	
+    left: 15px;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    border: 0px solid #000;
+    text-align: left;
+    float: left;
+
+	position: relative;
+
+		}
+		.notes{
+			color: #ccc;
+		}
+		#sidebar{
+			float: right;
+		padding: 10px;
+    width: 140px;
+    color: #444;
+    line-height: 133%;
+  margin-top: 70px;
+ 
+
+		}
+
+.sticky {
+  position: fixed;
+  top: 50px!important;
+   left: 575px!important;
+     margin-top: 0px!important;
+
+}
+				#posts{
+			float: left;
+width: 520px;
+	padding: 20px;
+
+
+		}
+		#header{
+			width: calc(100% - 70px);
+			margin-left: 35px;
+			margin-top: 35px;
+			float: left;
+		}
+
+	
+	</style>
+	<script>
+
+
+const audioError = () =>{
+const errorLabel =  document.querySelector('.error')
+errorLabel.style.visibility = 'visible'
+} 
+
+		const displayRandomImage = () => {
+  const imageURLs = [
+    "img/5184119220_bddddda8a4_m.jpg",
+    "img/5183521621_5b229680ab_m.jpg",
+    "img/5183521573_13cdcc515a_m.jpg",
+    "img/5183521525_ec39dbaac2_m.jpg",
+    "img/5184118966_07bf9a1dfb_m.jpg",
+    "img/5184118918_40eb4bc28b_m.jpg",
+    "img/5184118864_53006fcce8_m.jpg",
+    "img/5183521317_71aa3e4b56_m.jpg",
+    "img/5183521267_0a1716b70a_m.jpg",
+    "img/5183521143_a85d68a18b_m.jpg",
+    "img/5183521109_ed9ac78754_m.jpg",
+    "img/5184118546_307c72b317_m.jpg",
+    "img/5183521021_f7008fbcc0_m.jpg",
+    "img/5183520975_72f39cbbde_m.jpg",
+    "img/5183520939_58dc038d70_m.jpg"
+  ];
+
+  // Get a random index from the imageURLs array
+  const randomIndex = Math.floor(Math.random() * imageURLs.length);
+
+  // Get the URL of the random image
+  const imageURL = imageURLs[randomIndex];
+
+  // Get the <img> element from the HTML page
+  const imageElement = document.querySelector(".randomImage");
+
+  // Set the src attribute of the <img> element to the random image URL
+  imageElement.src = imageURL;
+
+
+}
+
+
+
+window.onload = function() {
+  displayRandomImage();
+  // Get the sidebar element
+// Get the sidebar element
+const sidebar = document.getElementById("sidebar");
+
+// Initialize a variable to store the offset of the sidebar element
+let sidebarOffset = 0;
+
+// Get the parent element of the sidebar element
+let parent = sidebar.offsetParent;
+
+// Loop through each parent element until the body element is reached
+while (parent && parent !== document.body) {
+  // Add the parent element's offset to the sidebar offset
+  sidebarOffset += parent.offsetTop;
+
+  // Get the next parent element
+  parent = parent.offsetParent;
+}
+
+// Add the sidebar element's offset to the sidebar offset
+sidebarOffset += sidebar.offsetTop;
+
+// Add a scroll event listener to the window object
+window.addEventListener("scroll", function() {
+  // Check if the sidebar element has hit the top of the page
+  if (window.pageYOffset > sidebarOffset) {
+    // If the sidebar element has hit the top of the page, add the "sticky" class to it
+    sidebar.classList.add("sticky");
+  } else {
+    // If the sidebar element has not hit the top of the page, remove the "sticky" class from it
+    sidebar.classList.remove("sticky");
+  }
+});
+
+}
+	</script>
+</head>
+<body>
+	<div id="header">
+
+          <div style="width: 113px;
+			height: 160px;"><img class="randomImage" src=""></div>
+           <h1>.</h1>
+          
+        </div>
+		
+<div id="container">
+<div id="sidebar">
+
+                A project space 
+                <br>
+
+                motivated by art &amp; 
+                <br>
+
+                research developed 
+                <br>
+
+                within the condition 
+                <br>
+
+                of free-time. A year long 
+                <br>
+
+                series which tests 
+                <br>
+
+                out interventions and 
+                <br>
+
+                proposals for new 
+                <br>
+
+                exhibition formats.
+                <br>
+                <br>
+                <br>
+
+                Say hello,
+                <br>
+
+                info(at)altsproject.info
+
+                 <br>
+                <br>
+                <br>
+Archive  <br>
+RSS  <br>
+Search
+            </div>
+            <div id="posts">
+<p><strong>William Hsu for Alterations </strong><br/> A tour in the Wellington Harbour<br/> 18.12.11</p>
+<div></div>
+<div><span><img height="443" src="img/tumblr_lxb8wxPnGA1qe0arn.jpg" width="460"/></span></div>
+<div></div>
+<div><strong><br/>&#183;</strong></div>
+<div>
+   <p class="MsoNormal">For William Hsu&rsquo;s project, viewers were invited to assemble at Wellington&rsquo;s Queens Wharf at 4.30&#160;pm on the 18th of December 2011. Once there, they were asked to board a chartered East by West Ferry which departed on an unrevealed route. It was blowing a strong southerly and once out in the harbour the ferry rose and fell with the swell.</p>
+   <p class="MsoNormal">The non-destination ferry trip in the Wellington Harbour included passing along the Petone forshore, near the former sites of the historic Gear Meat Company and Petone Swimming Baths.</p>
+   <p class="MsoNormal">Once the ferry neared Petone a member of the crew presented an audio commentary over the intercom composed of fragmented accounts of the history of the area. The commentary tracked the entwined relationships of agricultural production and refrigerator shipping to the harbour and Petone township.</p>
+   <p class="MsoNormal">He spoke of how the blood and offal discharged into the Harbour by the Gear Meat Company had turned the sea red attracting sharks and rendering it unfit and unsafe for swimming. The commenatary ended with a description of Edwin Jackson&rsquo;s development of the Petone Swimming Baths in 1887 as a strategy to respond to the transformation of the Petone Harbour.</p>
+   <p class="MsoNormal">Some of the passengers noted a parallel in the story to the markedly red earth that stains the sea at the edge of Petone.</p>
+   <p class="MsoNormal">The ferry completed its loop, by travelling past the mouth (where the harbour joins with Cook Strait and then the Pacific Ocean), returning to Queens Wharf around 5:30pm after approximately an hour at sea.</p>
+</div>
+<div></div>
+<div><strong>&#183;</strong></div>
+<div></div>
+<div></div>
+
+<p class="notes">0 notes / <u>Permalink</u></p>
+
+<p>
+<div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><img src="img/tumblr_lxb8mrRht61qe0arn.jpg"/></div>
+<div><br/>William Hsu, Alterations, Artefact</div>
+</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p>
+<div></div>
+<div></div>
+<div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><img height="350" src="img/tumblr_lvf3fdBDeG1qe0arn.jpg" width="277"/></div>
+<div><br/>Michael Stevenson for Alterations</div>
+<div>30.11.11 -</div>
+<div>Introduccion a la Teoria de la Probabilidad</div>
+<div><br/>(Special edition) available</div>
+<div>One copy in circulation</div>
+<div><a href="mailto:info@altsproject.info">Place your request now</a></div>
+</p>
+
+<p class="notes">0 notes / <u>Permalink</u></p>
+
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Lauren Winstone and Nick Spratt for Alterations </strong><br/> Responses to <em>New Zealand Potter</em> Magazine<br/> 31.7.11 - 31.12.12</p>
+<p><img height="318" src="img/tumblr_lp7sob1k9R1qe0arn.jpg" width="455"/></p>
+<p><strong>&#183;</strong></p>
+<p class="ecxMsoNormal"><span>Lauren Winstone and Nick Spratt have collaboratively developed <em>Responses to New Zealand Potter</em> magazine, an online research project which can be found <a href="http://www.asreads.in">here</a>.</span><span></span></p>
+<p class="ecxMsoNormal"><span>The project invites a new generation of practitioners and theorists to revisit the ideas and critical dialogue on ceramic art and culture that appeared in the founding issues of the magazine.</span><span></span></p>
+<p class="ecxMsoNormal"><span>Each invited guest will give an interview discussing selected articles taken from the first two volumes of the magazine. The transcripts of these interviews will be published on the website.</span><span></span></p>
+<p class="ecxMsoNormal"><span>Re-reading is a key strategy used in this project to contextualize the historical material within its current situation. The project aims to review and build the history of ceramic discourse in New Zealand amongst art and design disciplines.</span><span> <br/></span></p>
+<p class="ecxMsoNormal"><span>Similar to the original periodical, the interviews will be published every six months. The project will grow over the course of two years, extending Alterations&#8217; life-span and come to a resolution in 2012.</span></p>
+<p><strong>&#183;</strong></p>
+
+<p class="notes">0 notes / <u>Permalink</u></p>
+
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Alex Martinis Roe interviews Wendy Webster for Alterations <br/></strong>Online broadcast<br/>29.6.11</p>
+<p><strong>&#183;</strong></p>
+<p>On 29 June 2011 at 20:00 NZST / 10:00 CEST Alterations aired on this blog a video interview between artist Alex Martinis Roe and historian Wendy Webster. </p>
+<p class="MsoNormal"><span></span>The video was presented in black and white and in split screen format showing both women engaged in a conversation via Skype.</p>
+<p class="MsoNormal">Wendy the proposed subject of this interview began by conversely asking Alex the first set of questions. The role of the interviewer and interviewee kept changing between them.</p>
+<p class="MsoNormal"><span></span>As the interview progressed both women probed the ethics of involving participants in the creation of a work &ndash; be it a book, film or research project &ndash; which claimed single authorship. The image of the video disappeared when the speakers began to question the authority given to image over speech in documentary production.</p>
+<p class="MsoNormal">The video document escapes to settle on any specific form and instead oscillates between research, critique, art and performance. The interview presents the artist and the historian at work.</p>
+<p class="MsoNormal"><br/><strong>&#183;</strong></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><img src="img/tumblr_ln2vgoQKAG1qe0arn.png" height="163" width="202"/></p>
+<p>Alex Martinis Roe interviews Wendy Webster, Alterations, Artefact</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><img src="img/tumblr_lm3pe8vrR61qe0arn.png"/></p>
+<p>Nick Spratt and Lauren Winstone, Alterations, Artefact</p>
+<p><a href="http://asreads.in/">http://asreads.in/</a></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>A Reader for Alterations </strong><br/> Sophie Calle, Marjolijn Dikman, Liam Gillick, Idris Khan, Abbas Kiarostami, Alec Soth, Susan Sontag, Wolfgang Tillmans, Roman Ondak, Bik van der Pol, Tris Vonna-Michell<br/>11.4 - 15.4.11&#160;<br/> 26.4 - 10.5.11&#160;</p>
+<p><img width="521" height="432" src="img/tumblr_ll5r32G86Q1qe0arn.jpg"/></p>
+<p class="MsoNormal"><strong>&#183;</strong><span><br/><br/> An exhibition in book form - A Reader is a compilation of texts by numerous authors who have a reflexive interest in the production of the reproduction. Often they use the tool of photography to make this known. Their work operates as both a commentary and reflection on the</span><span> mechanism of the copy that publishing necessitates.</span></p>
+<p class="MsoNormal"><span>A Reader is a candid exhibition of secondary and previously disseminated material - some of which is now out of print/hard to find and some forgotten. In drawing attention to the copy, the compilation authenticates the primary source and brings it closer to the reader.</span></p>
+<p class="MsoNormal"><span>This one off publication is currently in circulation. To date it has been available for viewing at public libraries in New Zealand. The public library is a site to encounter art mediated through physical and online journals and books. The public library also used to loan reproductions of art to readers in the past.<span></span> Alterations taps this history and distributes research findings under this framework.</span></p>
+<p><strong>&#183;</strong></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<iframe src="http://player.vimeo.com/video/22053137?portrait=0&byline=0&title=0&background=1&controls=0" width="400" height="300" frameborder="0"></iframe><br/><br/>
+<p>A Reader, Alterations, Artefact</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Kelvin Soh for Alterations </strong><br/> Everything Must Go<br/> 31.3.11 - 2.4.11</p>
+<p><img src="img/tumblr_ll2tvcgEfo1qe0arn.jpg"/></p>
+<p><strong>&#183;</strong></p>
+<p class="MsoNormal"><span>Kelvin Soh&#8217;s exhibition for the taking took on the structure of a three-day clearance and was held at the end of the financial year.</span></p>
+<p class="MsoNormal"><span>A variety of products were presented on wooden delivery crates offering a line up of goods, stacked and piled, which included unlabeled bottled water, screen-printed tee shirts and printed matter. </span></p>
+<p class="MsoNormal"><span> Themed around water as a resource, the printed matter included a wallpaper decorated with marine iconography, posters depicting a section of water sourced from Google Earth and reproductions of the text &#8216;Tragedy of the Commons&#8217; by Garrett Hardin.</span></p>
+<p class="MsoNormal"><span>A banner image with block colours and a photographic image of the unbounded sea was suspended in one corner of the space and functioned as an accompanying &#8216;text&#8217; for the show.</span></p>
+<p class="MsoNormal"><span>Kelvin&rsquo;s exhibition, as proposition for a gift economy, seemed to contest the commercialization of water and suggested the impossibility of trying to objectify such an expansive and timeless form.</span></p>
+<p><strong>&#183;</strong></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+<p><img src="img/tumblr_ll5qawZwQN1qe0arn.jpg"/></p>
+<p>Kelvin Soh, Alterations, Artefact</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Andrea Bell curates Thea Rechner for Alterations </strong><br/> Observations, propositions and re-presentations<br/> 4.2.11 - 25.2.11</p>
+<p><img src="img/tumblr_linzaez1CT1qe0arn.jpg"/></p>
+<p><strong>&#183;</strong></p>
+<p class="ecxMsoNormal"><span>Andrea Bell invited Melbourne based artist Thea Rechner to reside at Alterations for the month of February.<br/><br/> For the duration of the residency Thea primarily worked onsite surveying the gallery grounds, conversing with neighbours to uncover local histories and exploring off-beaten tracks &ndash; often bringing material found during these field trips back into the gallery space.  Her travelogue includes a steady stream of photographs, short films, drawings and writing which can be found on <a target="_blank" href="http://alterations-resident.blogspot.com/"><span><a href="http://alterations-resident.blogspot.com/">http://alterations-resident.blogspot.com/</a></span></a></span></p>
+<p class="ecxMsoNormal"><span>Thea&#8217;s approach to the residency was informed by her online conversations with Andrea. A sample of Andrea&rsquo;s critical responses and guiding thoughts to Thea&rsquo;s studio time can also be found on the blog.<br/><br/></span>During the residency Thea made a proposal for a future audience to yield greengage plums from trees planted in the gardens of Plimmer Steps. She first presented greengage plums to gallery visitors to snack on. Then the pips she collected from these encounters were later planted under February&rsquo;s full moon &ndash; determined as optimum planting conditions. There is hope that in the future these fruit trees will stand along with the oaks on either side of the gallery; the oldest was planted by John Plimmer upon his arrival in Wellington.<span></span></p>
+<p class="ecxMsoNormal"><span>As a closing gesture to her time of residence Thea presented a self-guided tour of Plimmer Steps and its vicinity. She drew this as a diagram directly to the windows of the gallery. This map can also be downloaded from the blog and is intended for pedestrians and tourists to gain a personalised view of local experience.</span></p>
+<p><strong>&#183;</strong></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<p><img src="img/tumblr_lfvnh1TNQu1qe0arn.png"/><br/><br/></p>
+<p class="MsoNormal">Andrea Bell and Thea Rechner, Alterations, Artefact</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Deimantas Narkevičius for Alterations </strong><br/> Film screenings of Scena and The Role of a Lifetime<br/> 25.1.11 - 31.1.11</p>
+<p><img src="img/tumblr_lfvouwFR6G1qe0arn.jpg"/></p>
+<p>Alterations facilitated a close reading session for the opening of this project. The following is an account of the discussions that took place.</p>
+<p><span><strong>&#183;</strong></span><br/><br/>It is cold the evening we gather to discuss the selected readings entitled To have memories of architecture. We sit outside the gallery space huddled on woollen blankets. The first to speak is the film Scena by Deimantas Narkevičius. The film was screened from a projector poised resourcefully on a stack of cardboard boxes inside the space. The scale of the projection is no larger than an A5 – reminiscent of a postal envelope and rear-projected onto the gallery window. The film presents a series of interviews with people who work inside the CAC, Contemporary Art Center in Vilnius. The Lithuanian voices comment on the very physical and bodily affects architecture can produce; particularly in public spaces built during modern communism&#8217;s aspiration for permanence and social function. <br/><br/>Caught between the inside and outside of the gallery, an interstitial space emerges. It&#8217;s a discursive space built by readers wanting to configure new relations to the space. The conversation revolves around the form, function and politics of the gallery space.</p>
+<p>Daniel Buren&#8217;s practice is used as a case study to address the possibility of a work to go beyond the physical limitation of the gallery space. It is acknowledged that the gallery model we continue to fall back on is the modernist gesture, a dematerialized white cube. By questioning its own operation it has created new contexts and content for art. Yet where to from here? How can art be produced outside the gallery context without it becoming novelty or a branding exercise? How reliant is art on the gallery frame? Increasingly the work is illuminated through documentation, exchanged in conversation online and offline, translated in an essay.</p>
+<p>Sometimes, you can spend the whole day walking from one room to another of the gallery looking and still not find art. Sometimes, the gallery allows for meditation, reflection, illumination. It is a place that serves to remind us of our own limits, our presence, our own alienation and differentiation.</p>
+<p>The film makes several loops. Despite our aim to speculate on other contexts, other spaces for the production of art we return to the legacy of the modernist gallery and its architectural forms. Our insatiable desire for an elsewhere, an otherwise becoming part of its iterations.</p>
+<p>Thank you to Alice Baxter, Daniel Birnbaum, Daniel Buren, Tim Corballis, Michel Foucault, Hans Haacke, Raewyn Martin, Rachel O&#8217;Neil, Martin Patrick, Simon Sheikh and Erica van Zon.</p>
+<p><span><strong>&#183;</strong></span></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+<p><img src="img/tumblr_lf3eqw2Zwm1qe0arn.png" height="567" width="409"/></p>
+<p><span>Deimantas Narkevičius, Alterations, Artefact<br/></span></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Richard Frater for Alterations </strong><br/> retouch some real with some real <br/> 2.12.10 - 5.12.10&#160;<br/><br/><br/><img src="img/5240602794_aaafc72890_o.jpg" height="240" width="300"/></p>
+<p><span><strong><br/>&#183;</strong></span></p>
+<p>Thursday morning the two front windows of Alterations were removed. <br/>The door was left shut. The exhibition space was allowed to relax &ndash; ventilate. <br/><br/>Although subtle and almost unnoticeable, this opening gesture by <br/>Richard invited the city in and left the space open to chance <br/>and potential chaos. The space was left to weather. <br/><br/>Richard&rsquo;s work presents a system where one mode of production <br/>becomes the raw material for another. You can see this idea <br/>being applied to his early floor works made from new commercial <br/>designer carpets and reworked surfaces. As treatments to interior spaces, <br/>these works collect the residue from the encounter over time. <br/><br/>More recently he has been producing vignettes which are <br/>close to Structuralist cinema. These are studies on the effects of <br/>time placed on an object. For Richard, transformation and the <br/>reframing of material is of key interest. <br/><br/>Alterations invited Richard to develop a project which engaged with <br/>cinematic devices and addressed the architecture of the space. <br/><br/>Alterations was left open and unattended during the time <br/>Richard was in Wellington. He re-instated the windows <br/>on leaving the city. The effects of this re-instatement suggests <br/>that the city and all that is framed from the line of the <br/>gallery windows is now on exhibition.<br/><span><strong><br/>&#183;</strong></span> </p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<audio controls="controls"  preload="metadata" onclick="audioError()">
+ <!--<source src="audio/DearNatasha.mp3" />-->
+ <b>Your browser does not support HTML5 audio element</b>
+</audio>
+<p class="error" style="color:crimson;visibility:hidden">Audio file not found</p>
+<p><span>Richard Frater, Alterations, Artefact</span></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><img src="img/tumblr_lcqvcnFNsD1qe0arn.png"/><br/><br/>          address<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                                                                    <img src="img/tumblr_lcqybqPV5C1qe0arn.png"/><br/>                                                                  <br/>                                                                                                                                     people<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                                                             <br/><br/><br/>          <img src="img/tumblr_lcqveehrxm1qe0arn.png"/><br/>          <br/>                                              girls<br/><br/><br/></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<p></p>
+<p class="p1"><strong><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Ben Curnow for Alterations<br/></strong>Bass Practice <br/><span>30.11.10<br/><br/><br/></span><img src="img/tumblr_lcqz7l4mUP1qe0arn.png"/><br/><br/><strong><br/>&#183;</strong></p>
+<p class="p1">Ben Curnow was the subject of a portrait work presented by artist <br/>Julian Dashper at Canary Gallery in 2004.</p>
+<p class="p1">Ben occupied the space in his role as a curator and <br/>in doing so was the inaugural exhibit at the space. </p>
+<p class="p1">Julian has left an indelible mark on conceptual art and its history <br/>in New Zealand, and has inspired a younger generation of artists <br/>and curators through his ambition for working across forms <br/>and exhibition spaces.</p>
+<p class="p1">Julian invited Ben to be the portrait after they spent<br/>time together at the Sydney Biennale.</p>
+<p class="p1">Ben had just been in Wellington the week before their conversation, <br/>catching up with friends he played in punk bands with in the early 1980s.</p>
+<p class="p1">Julian once had an idea for the Venice Biennale where he <br/>wanted to occupy the exhibition pavilion by practicing trumpet. <br/><br/>More recently Julian announced to a room of friends that <br/>Ben had a hidden talent for playing bass.</p>
+<p class="p1">In response to the Alterations project brief and in light of our <br/>invitation for Ben to present an exhibition as the subject <br/>of another artist&rsquo;s work, Ben played bass guitar as the inaugural <br/>gesture to the space.</p>
+<p class="p1">He has set a ground for the projects to come.<br/><br/>&#183;<br/><br/></p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img src="http://28.media.tumblr.com/tumblr_lcezojM8bX1qeb6l5o1_400.png"/><br/><br/>
+<p>Ben Curnow, Alterations, Artefact</p>
+<p class="notes">0 notes / <u>Permalink</u></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+</div>
+</body>
+</html>
